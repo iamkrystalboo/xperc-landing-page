@@ -1,0 +1,10 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "@playwright/mcp@latest", "--caps=vision,pdf,devtools,network,storage,config"],
+      "enabled": true
+    }
+  }
+}
