@@ -123,7 +123,7 @@ export default function BookAuditPage() {
     try {
       await new Promise(resolve => setTimeout(resolve, 1500));
       setSubmitted(true);
-    } catch (error) {
+    } catch {
       setErrors({ submit: 'Something went wrong. Please try again or email us at hello@xperc.com' });
     } finally {
       setSubmitting(false);
@@ -142,11 +142,11 @@ export default function BookAuditPage() {
               Your AI Audit is booked!
             </h2>
             <p className="text-lg text-text-secondary mb-8">
-              We've sent a confirmation to <span className="font-medium text-accent">{formData.email}</span>
+              We&apos;ve sent a confirmation to <span className="font-medium text-accent">{formData.email}</span>
             </p>
 
             <div className="bg-bg-card rounded-lg border border-border p-6 md:p-8 text-left mb-8">
-              <h3 className="font-semibold text-text-primary mb-4">What's next:</h3>
+              <h3 className="font-semibold text-text-primary mb-4">What&apos;s next:</h3>
               <ul className="space-y-3 text-text-secondary">
                 <li className="flex gap-3">
                   <span className="text-accent flex-shrink-0">→</span>
@@ -154,7 +154,7 @@ export default function BookAuditPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent flex-shrink-0">→</span>
-                  <span>We'll send a brief prep questionnaire 24h before</span>
+                  <span>We&apos;ll send a brief prep questionnaire 24h before</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent flex-shrink-0">→</span>
@@ -201,7 +201,7 @@ export default function BookAuditPage() {
                 <div className="w-1/3 h-full bg-gradient-to-r from-accent to-accent-hover rounded-full transition-all duration-500"></div>
               </div>
 
-              {/* What you'll get — redesigned */}
+              {/* What you&apos;ll get — redesigned */}
               <div className="bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-xl border border-accent/20 p-6">
                 <div className="flex items-center gap-3 mb-5">
                   <div className="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center">
@@ -209,7 +209,7 @@ export default function BookAuditPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                   </div>
-                  <h3 className="font-display text-xl font-bold text-text-primary">What you'll get</h3>
+                  <h3 className="font-display text-xl font-bold text-text-primary">What you&apos;ll get</h3>
                 </div>
                 <ul className="space-y-4">
                   {[
@@ -228,7 +228,7 @@ export default function BookAuditPage() {
 
               {/* Testimonial — more visual */}
               <div className="relative bg-bg-card rounded-xl border border-border p-6 overflow-hidden">
-                <div className="absolute top-0 right-0 text-6xl text-accent/10 font-serif leading-none pr-3 pt-1">"</div>
+                <div className="absolute top-0 right-0 text-6xl text-accent/10 font-serif leading-none pr-3 pt-1">&ldquo;</div>
                 <div className="relative z-10">
                   <div className="flex gap-1 mb-3">
                     {[1,2,3,4,5].map(i => (
@@ -238,7 +238,7 @@ export default function BookAuditPage() {
                     ))}
                   </div>
                   <p className="text-sm text-text-secondary italic leading-relaxed mb-3">
-                    "The most concrete AI conversation I've had. I walked away knowing exactly what to do next."
+                    &ldquo;The most concrete AI conversation I&apos;ve had. I walked away knowing exactly what to do next.&rdquo;
                   </p>
                   <p className="text-xs text-text-tertiary font-medium">
                     — COO, logistics company
@@ -268,7 +268,7 @@ export default function BookAuditPage() {
           <div className="lg:col-span-3">
             <div className="bg-bg-secondary rounded-xl border border-border p-6 md:p-8">
               <h1 className="font-display text-3xl md:text-4xl font-bold text-text-primary mb-2">Book your free AI Audit</h1>
-              <p className="text-text-secondary text-sm mb-8">Fill in your details and we'll match you with the right specialist</p>
+              <p className="text-text-secondary text-sm mb-8">Fill in your details and we&apos;ll match you with the right specialist</p>
 
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Full Name */}
@@ -489,7 +489,7 @@ export default function BookAuditPage() {
               {/* Challenge (optional) */}
               <div>
                 <label htmlFor="challenge" className="block text-sm font-medium text-text-primary mb-2">
-                  What's your biggest operational challenge right now? (Optional)
+                  What&apos;s your biggest operational challenge right now? (Optional)
                 </label>
                 <textarea
                   id="challenge"
