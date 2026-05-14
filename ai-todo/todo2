@@ -1,0 +1,30 @@
+- Di chuyển video ở trang chủ mà hiện tại đang ở hero section xuống ngay dưới 2 nút "Book Free AI Audit" và "View All Services" và vẫn nằm trong cùng hero section đó.
+- Thêm một tab trên header của trang với chức năng giống trang chủ để chứa nội dung trang chủ, nhưng không được đặt tên là "Home", cần đặt một cái tên khác để hook khách hàng hơn.
+- Phần Our Team chỉ để trong mục About, không hiển thị ở trang chủ, hiển thị 4 team member, khi click vào từng team member thì hệ thống sẽ navigate qua trang team member detail, nội dung ở team member detail cần thể hiện được độ uy tín của team member đó.
+- Thêm một section Certifications trong About.
+- Thêm một section What our Clients say tại trang chủ để tăng độ uy tín cho XperC:
+"From Squid Solution
+(France)
+I've been working with XPERC founders for 5 years, developing a complex & large java
+application (full BI stack) mixing lots of technologies & API... They always managed to
+achieve our milestones and proved to be talented software engineers and great team-
+mates. I would definitely work with them again.
+From LLNK
+(Software Company)
+XPERC provides consistent quality with fast pace implementation, they are the best part-
+ner and always help us to manage the concrete budget for project implementation with
+their expert.
+Snow Monster, 18 Folds, 206 BCE, Green Turtle Co, and
+Wildflower Co.
+(United States restaurants)
+We recommended XPERC services and quality while they are implementing our reserva-
+tion/pickup system.
+From 9PMP
+(Construction Software Solution Company in Singapore)
+"
+- Tại trang Services, hãy gom chung 3 gói dịch vụ với title lớn ở trên thành 1 hero section
+- Tại trang Services, padding chưa tốt giữa header với content, hãy điều chỉnh lại tốt hơn
+- Phần Explore your way, cần show thêm hình và chi tiết hơn để trực quan hoá hơn
+- Phần Three packages, align lại layout các packages và các buttons cho nó ngang hàng nhau
+- Phần We use AI ourselves, thêm Project Management, OKR, Leave. Tuy nhiên sẽ không để hết lên trang home, có thể sẽ để ở dạng show more chẳng hạn. Hãy đề xuất phương án tối ưu hơn.
+- Test lại sau khi chạy to-do list với Playwright MCP kèm screenshots làm evidence.

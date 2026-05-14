@@ -1,0 +1,8 @@
+- Hãy tách riêng section "How it works" ra khỏi section "Three packages, one natural progression" => sắp xếp lại thứ tự hiển thị của "How it works" trong trang chủ cho hợp lí.
+- Điều chỉnh lại màu sắc của phần "Tools we built" cho đồng bộ màu sắc
+- Các trang thuộc Industry Solution cần có layout nổi bật hơn kèm hình ảnh trực quan với industry đó. Mọi từ "xperc" trong site phải đổi thành "XperC"
+- Các trang thuộc Problem Solution cũng cần có layout nổi bật hơn kèm hình ảnh trực quan hơn với problem đó. Mọi từ "xperc" trong site phải đổi thành "XperC"
+- Tại trang Services => các packages cần phải align các nút và các widget ngang hàng với nhau.
+- Phần Quick Comparison cần thiết kế sáng tạo hơn, có thể theo hướng toggle nếu có hoặc kiểu khác.
+- Ở toàn bộ site, hãy thêm nhiều transition và animation để trông có hiệu ứng hơn nhé.
+- Chạy các prompt trên và test lại bằng Playwright MCP kèm screenshot.

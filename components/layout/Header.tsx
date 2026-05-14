@@ -1,12 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Logo from './Logo';
 
 export default function Header() {
-  const router = useRouter();
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [solutionsDropdownOpen, setSolutionsDropdownOpen] = useState(false);
@@ -21,6 +20,7 @@ export default function Header() {
   }, []);
 
   const navLinks = [
+    { href: '/', label: 'Start Here' },
     { href: '/dich-vu', label: 'Services' },
     { href: '/giai-phap', label: 'Solutions', dropdown: true },
     { href: '/ve-xperc', label: 'About' },

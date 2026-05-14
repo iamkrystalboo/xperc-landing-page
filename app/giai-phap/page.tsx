@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Solutions — xperc',
+  title: 'Solutions — XperC',
   description: 'Find AI solutions by industry or by problem. From construction to retail, from AI helpdesk to project management.',
 };
 
@@ -135,10 +135,10 @@ export default function SolutionsPage() {
         <div className="container-max">
           <div className="bg-gradient-to-br from-accent/10 to-accent/5 border border-accent/30 rounded-2xl p-12 text-center">
             <h2 className="font-display text-4xl font-bold text-text-primary mb-6">
-              Don't see your industry or use case?
+              Don&apos;t see your industry or use case?
             </h2>
             <p className="text-lg text-text-secondary mb-8 max-w-2xl mx-auto">
-              Book a free AI Audit. We'll analyze your specific situation and show you exactly where AI could help.
+              Book a free AI Audit. We&apos;ll analyze your specific situation and show you exactly where AI could help.
             </p>
             <a
               href="/dat-ai-audit"

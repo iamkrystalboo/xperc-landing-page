@@ -1,0 +1,3 @@
+- Revert lại Quick Comparision như ban đầu.
+- Phần "How It Works" padding và ngăn cách chưa tốt với phần Explore you way phía trên nó.
+- Phần "How it works" hãy đổi tên thành kiểu khác để nghe tự nhiên và hook hơn với persona. Ngoài ra nội dung các steps ở phần này cũng phải được đưa về chung 1 size chữ, bỏ đi các icon hiển thị để trông chuyên nghiệp hơnnoh, các widgets phải align với nhau và chung độ cao. Lưu ý: giữa các section phải được ngăn cách nhau rõ ràng.

@@ -23,7 +23,7 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'xperc — AI Strategy & Implementation for Traditional Businesses',
+  title: 'XperC — AI Strategy & Implementation for Traditional Businesses',
   description: 'From strategy to real deployment. Book your free 60-minute AI Audit with our specialists and get a concrete, business-specific AI roadmap.',
   keywords: ['AI', 'consulting', 'Vietnam', 'business', 'automation', 'SME', 'digital transformation'],
   viewport: 'width=device-width, initial-scale=1',
